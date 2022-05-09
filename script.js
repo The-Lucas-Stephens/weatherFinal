@@ -4,9 +4,9 @@ Vue.component("displayweather",{
   template:`<div class="card" style="width: 18rem;">
   <img v-bind:src="'https://openweathermap.org/img/w/'+weatherobj.weather[0].icon+'.png'" class="card-img-top" alt="...">
   <div class="card-body">
-    <h3 class="card-text weatherdata">Weather For: {{weatherobj.name}}</h3>
-    <h3 class="card-text weatherdata">Current Weather: {{weatherobj.weather[0].main}}</h3>
-    <h3 class="card-text weatherdata">Current Temperature: {{weatherobj.main.temp}}</h3>
+    <h3 class="card-text weatherinfo">Weather For: {{weatherobj.name}}</h3>
+    <h3 class="card-text weatherinfo">Current Weather: {{weatherobj.weather[0].main}}</h3>
+    <h3 class="card-text weatherinfo">Current Temperature: {{weatherobj.main.temp}}</h3>
   </div>
 </div>`,
 props:["weatherobj"]
