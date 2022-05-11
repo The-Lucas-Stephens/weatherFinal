@@ -48,3 +48,8 @@ input{
 select{
     text-align: center;
 }
+.weatherDisplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
