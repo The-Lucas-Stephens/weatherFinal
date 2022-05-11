@@ -53,3 +53,6 @@ select{
     align-items: center;
     justify-content: center;
 }
+.blankDiv{
+    background-color: white;
+}
