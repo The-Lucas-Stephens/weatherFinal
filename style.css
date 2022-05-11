@@ -1,0 +1,50 @@
+*{
+    padding:10px;
+    margin: 5;
+}
+.pageTop{
+    background-color: darkgrey;
+    border: 2px black;
+}
+.pageTop h1{
+    background-image: url(headerArt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    color: white;
+}
+.topImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topImage img{
+    border: 6px black;
+    border-style:groove;
+    border-radius: 50%;
+    box-shadow: 8px 8px 8px black;
+    background-color: white;
+}
+#weatherApp{
+    text-align: center;
+    background-image: url(theAppBackground.jpg);
+    background-repeat: initial;
+    background-size: cover;
+}
+#userInfo h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    color:white;
+    -webkit-text-stroke: 2px black;
+    text-shadow: 4px 4px 4px black;
+    text-shadow: 4px 4px 4px grey;
+
+}
+input{
+    text-align: center;
+}
+select{
+    text-align: center;
+}
