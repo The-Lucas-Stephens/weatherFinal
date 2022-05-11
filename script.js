@@ -29,9 +29,7 @@ const weatherApp = new Vue({
         .then((response) => {
           this.weatherData = response.data
           console.log("Here is the object:");
-          console.log(this.weatherData);
-          console.log(this.weatherData.main.temp)
-          console.log(this.weatherData.weather[0].description)
+          console.log(this.weatherData)
           console.log("User entered zip code: " +this.userZipCode)
         })
         .catch((err) => {
@@ -48,10 +46,7 @@ const weatherApp = new Vue({
           .then((response) => {
             this.weatherData = response.data
             console.log("Here is the object:");
-            console.log(response.data)
-            console.log(this.weatherData);
-            console.log(this.weatherData.main.temp)
-            console.log(this.weatherData.weather[0].description)
+            console.log(this.weatherData)
             console.log("User entered zip code: " +this.userZipCode)
           })
           .catch((err) => {
